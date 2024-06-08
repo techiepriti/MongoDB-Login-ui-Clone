@@ -1,0 +1,173 @@
+*{
+    margin : 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+height: 100vh;
+width: 26%;
+}
+
+.right {
+    height: 100vh;
+    width: 74%;
+    background-image: url("https://assets.mongodb-cdn.com/mms/static/images/auth/login_promo_desktop_v20240327.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.mongodb_logo {
+    height: 38px;
+    width: 300px;
+}
+
+.left_content {
+    height: 629.6px;
+    width: 343px;
+    margin: 50px 0px 50px 42px;
+    
+}
+
+.log {
+    height: 40px;
+    width: 343px;
+    line-height: 40px;
+    font-size: 2.2rem;
+    margin: 32px 0px 16px 0px;
+
+}
+
+.log p {
+    font-family: 'Times New Roman', serif;
+    color: rgb(0, 105, 75);
+}
+
+.account {
+    height: 23px;
+    width: 343px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noaccount {
+    color: black;
+
+}
+
+.button {
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    border-color: rgb(235, 235, 235);
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    margin-top: 16px;
+}
+
+.credential {
+    height: 16px;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .75rem;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.credential p {
+    width: 60px;
+    border: 1px solid rgb(193, 192, 192);
+}
+
+.email {
+    height: 40px;
+    width: 290px;
+    margin-top: 5px;
+    border-color: rgb(159, 155, 155);
+    border-radius: 8px;
+}
+
+.signin {
+    margin-top: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(81, 80, 80);
+}
+
+.next_button {
+    height: 35px;
+    width: 90px;
+    align-items: center;
+    border-color: rgb(182, 177, 177);
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+.right_content {
+    height: 629.6px;
+    width: 443px;
+    margin: 100px 0px 50px 80px;
+    
+}
+
+.mongo {
+    height: 150px;
+    width: 350px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.product {
+    height: 90px;
+    width: 310px;
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.web50 {
+    height: 80px;
+    width: 310px;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    margin: 10px 0px 1px 0px;
+
+}
+
+.schedule {
+    height: 30px;
+    width: 310px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 1px;
+    display: flex;
+}
+
+.link {
+    border-bottom: 2px solid white;
+    margin-right: 10px;
+}
+
